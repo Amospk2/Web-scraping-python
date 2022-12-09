@@ -1,0 +1,7 @@
+docker run -d -p 3306:3306 \
+    --name mysqlpython \
+    -e MYSQL_ROOT_PASSWORD="123456" \
+    -e MYSQL_DATABASE="twitterScrape" \
+    -e MYSQL_USER="Amospk2" \
+    -e MYSQL_PASSWORD="root" \
+    mysql

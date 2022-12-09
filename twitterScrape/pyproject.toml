@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "twitter-scrape"
+version = "0.1.0"
+description = ""
+authors = ["Amospk2 <googletraduzpramin@hotmail.com>"]
+readme = "README.md"
+packages = [{include = "twitter_scrape"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+snscrape = "^0.4.3.20220106"
+pandas = "^1.5.1"
+SQLAlchemy = "^1.4.42"
+mysqlclient = "^2.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
